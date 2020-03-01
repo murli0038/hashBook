@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h3G-5k-RdI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="uRQ-S9-tUu">
+            <objects>
+                <viewController id="h3G-5k-RdI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OMD-Gk-0in">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="240_F_151715288_JMSDZQezGdVQJE6fvRlG3BzWUw5tNiOX" translatesAutoresizingMaskIntoConstraints="NO" id="9Zj-9h-Ktq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xeo-rK-TGa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="o3v-tU-0ax">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#hashBook" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ar7-kV-BNX">
+                                            <rect key="frame" x="0.0" y="407" width="414" height="61"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="61" id="ljP-V8-8Y9"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                            <nil key="textColor"/>
+                                            <color key="highlightedColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="shows the Corner which you FEEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHZ-js-aA0">
+                                            <rect key="frame" x="0.0" y="476" width="414" height="17"/>
+                                            <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <color key="highlightedColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ar7-kV-BNX" firstAttribute="leading" secondItem="o3v-tU-0ax" secondAttribute="leading" id="6pJ-9k-4La"/>
+                                        <constraint firstItem="ar7-kV-BNX" firstAttribute="top" secondItem="o3v-tU-0ax" secondAttribute="top" constant="407" id="W2R-Pz-rT1"/>
+                                        <constraint firstItem="ar7-kV-BNX" firstAttribute="centerX" secondItem="o3v-tU-0ax" secondAttribute="centerX" id="bZw-Pm-ikW"/>
+                                        <constraint firstItem="kHZ-js-aA0" firstAttribute="top" secondItem="ar7-kV-BNX" secondAttribute="bottom" constant="8" id="gcK-9T-3hE"/>
+                                        <constraint firstItem="ar7-kV-BNX" firstAttribute="leading" secondItem="kHZ-js-aA0" secondAttribute="leading" id="mco-tK-4R1"/>
+                                        <constraint firstItem="ar7-kV-BNX" firstAttribute="trailing" secondItem="kHZ-js-aA0" secondAttribute="trailing" id="yhP-Cs-kEw"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9Zj-9h-Ktq" firstAttribute="top" secondItem="Xeo-rK-TGa" secondAttribute="top" id="C82-dJ-ANC"/>
+                            <constraint firstItem="9Zj-9h-Ktq" firstAttribute="top" secondItem="OMD-Gk-0in" secondAttribute="topMargin" constant="-44" id="C9X-IQ-pjD"/>
+                            <constraint firstItem="9Zj-9h-Ktq" firstAttribute="centerX" secondItem="OMD-Gk-0in" secondAttribute="centerX" id="QBX-NJ-jht"/>
+                            <constraint firstItem="9Zj-9h-Ktq" firstAttribute="bottom" secondItem="Xeo-rK-TGa" secondAttribute="bottom" id="VRy-ro-ziB"/>
+                            <constraint firstItem="Xeo-rK-TGa" firstAttribute="centerY" secondItem="OMD-Gk-0in" secondAttribute="centerY" id="gdh-K9-E5W"/>
+                            <constraint firstItem="9Zj-9h-Ktq" firstAttribute="leading" secondItem="lhs-R9-FsC" secondAttribute="leading" id="lw7-M1-eRt"/>
+                            <constraint firstItem="9Zj-9h-Ktq" firstAttribute="trailing" secondItem="Xeo-rK-TGa" secondAttribute="trailing" id="wTT-G0-Bir"/>
+                            <constraint firstItem="9Zj-9h-Ktq" firstAttribute="leading" secondItem="Xeo-rK-TGa" secondAttribute="leading" id="xR9-mu-wDc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lhs-R9-FsC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CzL-KK-7lv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="552" y="325"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="240_F_151715288_JMSDZQezGdVQJE6fvRlG3BzWUw5tNiOX" width="360" height="240"/>
+    </resources>
+</document>
