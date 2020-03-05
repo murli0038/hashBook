@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,6 +28,7 @@
 		25CCAE3F23DC09AE00ACF3DC /* hashBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CCAE3E23DC09AE00ACF3DC /* hashBookUITests.swift */; };
 		25CCAE4D23DC0B0700ACF3DC /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CCAE4C23DC0B0700ACF3DC /* myTableViewCell.swift */; };
 		25CCAE5123DC18A700ACF3DC /* CustomnavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CCAE5023DC18A700ACF3DC /* CustomnavigationViewController.swift */; };
+		25DE8BAB240EA19100F6A227 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE8BAA240EA19100F6A227 /* HomeView.swift */; };
 		9F9DC6247C5F3B80D6734188 /* Pods_hashBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23A80C5B32090D83690D491 /* Pods_hashBook.framework */; };
 		BD96D23916102CAC3268F817 /* Pods_hashBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C9B2E9265ADFE7798B0B15 /* Pods_hashBookTests.framework */; };
 		CAC7A98F2D1CB36C5C160D4B /* Pods_hashBook_hashBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D82B54E65FD1D3BEF7569B /* Pods_hashBook_hashBookUITests.framework */; };
@@ -83,6 +84,7 @@
 		25CCAE4023DC09AE00ACF3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25CCAE4C23DC0B0700ACF3DC /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 		25CCAE5023DC18A700ACF3DC /* CustomnavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomnavigationViewController.swift; sourceTree = "<group>"; };
+		25DE8BAA240EA19100F6A227 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3CF29AA071226F7DE5DBE88D /* Pods-hashBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashBookTests.release.xcconfig"; path = "Target Support Files/Pods-hashBookTests/Pods-hashBookTests.release.xcconfig"; sourceTree = "<group>"; };
 		59ABD75F3D018095396DE3DB /* Pods-hashBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hashBookTests.debug.xcconfig"; path = "Target Support Files/Pods-hashBookTests/Pods-hashBookTests.debug.xcconfig"; sourceTree = "<group>"; };
 		80C9B2E9265ADFE7798B0B15 /* Pods_hashBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hashBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +204,7 @@
 				257AF6CF23E5DF48002B002A /* LikeView.swift */,
 				2514BEC623F86FCE00991FB6 /* NewTag.swift */,
 				2571D02523FAA3BB0079D471 /* NewTagEdit.swift */,
+				25DE8BAA240EA19100F6A227 /* HomeView.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 				25CCAE1A23DC09AC00ACF3DC /* AppDelegate.swift in Sources */,
 				25CCAE1C23DC09AC00ACF3DC /* SceneDelegate.swift in Sources */,
 				257AF6D223E5E0C5002B002A /* LikeTableViewCell.swift in Sources */,
+				25DE8BAB240EA19100F6A227 /* HomeView.swift in Sources */,
 				25C5E48D23F1BDBB00A62A1F /* TagwithPhotoView.swift in Sources */,
 				2585255B23DD49F100A9AF58 /* CommenTableViewCell.swift in Sources */,
 			);
